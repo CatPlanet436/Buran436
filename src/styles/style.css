@@ -97,6 +97,9 @@ h1 {
     border-radius: 50px;
     border: none;
     align-items: center;
+
+    transition: 1s;
+    opacity: 0;
 }
 
 .links__link img {
@@ -110,6 +113,10 @@ h1 {
     color: white;
     font-size: 20px;
     margin: 0 0 0 10px;
+}
+
+.links__link.visible {
+    opacity: 1;
 }
 
 #discord {
